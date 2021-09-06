@@ -1,0 +1,68 @@
+@keyframes textAnimation{
+    0%{
+        color: #000;
+    }
+    50%{
+        color: #8f8d8d;
+    }
+    100%{
+        color: #000;
+    }
+}
+
+@keyframes backAnimation{
+    0%{
+        background-color: var(--var-background-gradient);
+    }
+    50%{
+        background-color: #02022F;
+    }
+    100%{
+        background-color:  var(--var-background-gradient);
+    }
+}
+
+@keyframes colorAnimation{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes instaAnimation {
+    0%{
+        color: #F4C04D;
+    }
+    25%{
+        color: #F34D48;
+    }
+    50%{
+        color: #5057C7;
+    }
+    75%{
+        color: #AB2EB6;
+    }
+    100%{
+        color: #F4C04D;
+    }
+}
+
+@keyframes instaTextShadowAnimation {
+    0%{
+        text-shadow: 0 0 120px #F4C04D;
+    }
+    25%{
+        text-shadow: 0 0 120px #F34D48;
+    }
+    50%{
+        text-shadow: 0 0 120px #5057C7;
+    }
+    75%{
+        text-shadow: 0 0 120px #AB2EB6;
+    }
+    100%{
+        text-shadow: 0 0 120px #F4C04D;
+    }
+}

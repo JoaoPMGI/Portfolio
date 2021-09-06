@@ -1,0 +1,22 @@
+/* VARIABLES */
+
+:root {
+    --noto: "Noto", cursive;
+    --var-background-gradient: linear-gradient(to bottom, #02022F, #060655);
+}
+
+/* CONFIGS */
+* {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Noto", cursive;
+    background-image: var(--var-background-gradient);
+    scroll-behavior: smooth;
+}
